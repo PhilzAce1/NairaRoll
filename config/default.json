@@ -1,0 +1,7 @@
+{
+  "something": {
+    "another": "thing"
+  },
+  "jwtPrivateKey": "philemonisjustcool",
+  "db": "mongodb://localhost/naira"
+}

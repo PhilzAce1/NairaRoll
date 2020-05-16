@@ -1,0 +1,44 @@
+{
+  "name": "nairaroll",
+  "version": "1.0.0",
+  "description": "backend to nairaroll ; the online dice rolling game ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose  --runInBand --detectOpenHandles",
+    "start": "node index.js",
+    "dev": "cls && nodemon index.js"
+  },
+  "keywords": [
+    "authentication_system",
+    "backend",
+    "express",
+    "node",
+    "enterprise",
+    "betting",
+    "diceRolling"
+  ],
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "Akuagwu Philemon",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.4.0",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.11",
+    "morgan": "^1.10.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "jest": "^25.5.2",
+    "supertest": "^4.0.2"
+  }
+}
